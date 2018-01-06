@@ -67,7 +67,7 @@ block content
                                 select(id="ddlCategory", name="ddlCategory", class="form-control input-sm")
                                     option(value="") -- Select --
                                     for category in categories 
-                                        option(selected=category.name == category) #{category.name}                                  
+                                        option(value=category.name selected=category.name == category) #{category.name}
                         .form-group
                             label.control-label.col-md-3 Description : 
                             .col-md-9
