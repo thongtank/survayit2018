@@ -1,0 +1,26 @@
+{
+    "name": "survayit",
+    "version": "1.0.0",
+    "description": "SURVAT I.T. 2018",
+    "main": "app.js",
+    "dependencies": {},
+    "devDependencies": {
+        "express": "^4.16.2",
+        "jade": "*",
+        "mongoose": "^5.0.0-rc2",
+        "stylus": "*"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thongtank/survayit2018.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thongtank/survayit2018/issues"
+    },
+    "homepage": "https://github.com/thongtank/survayit2018#readme"
+}
