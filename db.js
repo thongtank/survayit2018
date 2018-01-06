@@ -23,5 +23,7 @@ mongoose.model('Category', Category, 'Category');
 mongoose.connect('mongodb://root:489329@ds043991.mlab.com:43991/itsurvay', function(error) {
     if (error) {
         console.log(error);
+    } else {
+        console.log('Done');
     }
 });
